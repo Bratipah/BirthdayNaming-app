@@ -35,6 +35,9 @@ nav ul li a{
 li{
     list-style: none;
 }
+a{
+    list-style: none;
+}
 .Active{
     font-weight: bold;
     color: rgb(7, 6, 5); 
