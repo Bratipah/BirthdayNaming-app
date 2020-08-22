@@ -17,7 +17,7 @@ function akanName() {
 
     if (gender === "Male") {
         alert("You now posess the AkanName:" + akanMaleName[d0W])
-    } else if (radio === "Female") {
+    } else if (gender === "Female") {
         alert("you now posess the AkanName:" + akanFemaleName[doW])
     }
 
