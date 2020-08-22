@@ -1,8 +1,20 @@
 var male = parseInt(document.getElementById(male).value)
 var female = parseInt(document.getElementById(female).value)
-var bDate = parseInt(document.getElementById(bDate).value)
-var akanMaleName = ["Kwasi, Kwadwo, Kwabena, Kwaku, Yaw, Kofi, Kwame"]
-var akanFemaleName = ["Akosua, Adwoa, Abenaa, Akua, Yaa, Afua, Ama"]
-function() {
+var akanMaleName = ["Kwasi, Kwadwo, Kwabena, Kwaku, Yaw, Kofi, Kwame"];
+var akanFemaleName = ["Akosua, Adwoa, Abenaa, Akua, Yaa, Afua, Ama"];
+// if (month >= 12 || month <= 1) {
+//     alert("Enter a month number between 1-12"
+// }
+function akanName() {
+    var bdate = document.getElementById("bdate").value;
+    var gender = document.getElementById("gender").value;
+    alert(gender)
+    var CC = parseInt(bdate.substr(0, 2));
+    var DD = parseInt(bdate.substr(8, 9))
+    var YY = parseInt(bdate.substr(1, 3));
+    var MM = parseInt(bdate.substr(8, 9));
+    var doW = parseInt((CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) % 7);
+
+
 
 }
