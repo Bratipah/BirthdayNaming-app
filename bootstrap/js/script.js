@@ -1,5 +1,3 @@
-var male = parseInt(document.getElementById(male).value)
-var female = parseInt(document.getElementById(female).value)
 var akanMaleName = ["Kwasi, Kwadwo, Kwabena, Kwaku, Yaw, Kofi, Kwame"];
 var akanFemaleName = ["Akosua, Adwoa, Abenaa, Akua, Yaa, Afua, Ama"];
 // if (month >= 12 || month <= 1) {
