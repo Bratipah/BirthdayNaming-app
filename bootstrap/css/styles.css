@@ -1,0 +1,86 @@
+body{
+    background-image: url("/images/dance-papuans-dancing-african-people-260nw-773214946.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+h1{
+    margin-top: 50px;
+    text-align:center;
+    color:white;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: yellow;
+    box-shadow: 2px 2px 12px rgb(65, 160, 36);
+    padding: 0px 5%;
+    margin: 50px;
+    border-radius: 15px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(14, 0, 0);
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+}
+li{
+    style: none;
+}
+.Active{
+    font-weight: bold;
+    color: rgb(7, 6, 5); 
+}
+.container{
+    border: burlywood;
+    box-shadow: crimson;
+    /* background-image:url("/images/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg"); */
+    /* padding-top: 60px;
+    padding-left: 70px;
+    margin-left: 40px;
+    margin-top: 100px; */
+    width: 500px;
+    height: 300px;
+}
+.footer{
+    text-align: center;
+    
+}
+.footer button{
+    background-color:yellow;
+    box-shadow:olivedrab;
+    border-radius: 10px;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color:black;
+    font-size: xx-large;   
+}
+.form-group{
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    color:red;
+    font-style: oblique;
+    background-color: yellow;
+    margin: 50px;
+    width: 300px;
+    border-radius: 10px;
+}
+.form-group button{
+    background-color: black;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    color: cornsilk;
+    border-radius: 5px;
+
+}

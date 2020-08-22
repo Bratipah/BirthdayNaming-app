@@ -4,20 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/styles.css">
+    <title>Naming app</title>
 </head>
 
 <body>
     <section>
         <nav>
-
+            <a href="#"></a>
+            <ul>
+                <li><a href="#" class="Active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">projects</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
         </nav>
-        <div class="container">
-            BIRTHDAYCULTURENAMING APP
-            <!-- <img src="./images/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg" alt="CultureNaming" height="800" width="100%"> -->
 
+        <div class="row">
+            <h1>WELCOME!: <br>
+                BIRTHDAY CULTURE NAMING APP <br>
+            </h1>
         </div>
-        <img src="./images/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg" alt="CultureNaming" height="800" width="100%">
+        <div class="footer">
+            <p><button type="submit">START</button></p>
+        </div>
+        <div class="row">
+            <form>
+                <div class="form-group">
+                    <label for="fname">BIRTHDAY DATE:</label><br>
+                    <input type="date" id="bdate" name="bdate"><br>
+                    <div class="form-gender">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">MALE</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">FEMALE</label><br>
+                    </div>
+                    <button type="submit" class="btn-btn primary">AKANNAME</button>
+                </div>
+            </form>
+        </div>
     </section>
     <script src="./script.js"></script>
 </body>
