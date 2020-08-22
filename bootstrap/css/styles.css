@@ -47,7 +47,7 @@ a{
     font-weight: bold;
     color: rgb(7, 6, 5); 
 }
-.container{
+.jumbotron{
     border: burlywood;
     box-shadow: crimson;
     /* background-image:url("/images/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg"); */
