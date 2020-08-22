@@ -15,7 +15,7 @@ function akanName() {
     var MM = parseInt(bdate.substr(0, 1));
     var doW = parseInt((CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) % 7);
 
-    if (radio === "Male") {
+    if (gender === "Male") {
         alert("You now posess the AkanName:" + akanMaleName[d0W])
     } else if (radio === "Female") {
         alert("you now posess the AkanName:" + akanFemaleName[doW])
