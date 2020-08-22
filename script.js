@@ -9,10 +9,10 @@ function akanName() {
     var bdate = document.getElementById("bdate").value;
     var gender = document.getElementById("gender").value;
     alert(gender)
-    var CC = parseInt(bdate.substr(0, 2));
-    var DD = parseInt(bdate.substr(8, 9))
-    var YY = parseInt(bdate.substr(1, 3));
-    var MM = parseInt(bdate.substr(8, 9));
+    var CC = parseInt(bdate.substr(6, 7));
+    var DD = parseInt(bdate.substr(3, 4))
+    var YY = parseInt(bdate.substr(8, 9));
+    var MM = parseInt(bdate.substr(0, 1));
     var doW = parseInt((CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) % 7);
 
     if (radio === "Male") {
