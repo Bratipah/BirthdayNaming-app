@@ -33,7 +33,7 @@ nav ul li a{
     text-align: center;
 }
 li{
-    style: none;
+    list-style: none;
 }
 .Active{
     font-weight: bold;
