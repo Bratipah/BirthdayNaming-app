@@ -1,6 +1,6 @@
-body{
-    /* background-image: url("/images/dance-papuans-dancing-african-people-260nw-773214946.webp");
-    background-size: cover; */
+ /* body{
+    background-image: url("/images/dance-papuans-dancing-african-people-260nw-773214946.webp");
+    background-size: cover; 
     background-repeat: no-repeat;
     height: 500px;
 }
@@ -10,7 +10,7 @@ h1{
     align-items: center;
     
     
-}
+} 
 h2{
     margin-top: 20px;
     text-align: center;
@@ -46,8 +46,8 @@ a{
 }
 .Active{
     font-weight: bold;
-    color: rgb(7, 6, 5); 
-}
+    color: rgb(7, 6, 5);
+} */
 /* .jumbotron{
     border: burlywood;
     box-shadow: crimson;
@@ -60,7 +60,7 @@ background-image:url("/images/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg");
     height: 300px;
 }  */
 
-.start{
+/* .start{
     background-color:yellow;
     box-shadow:olivedrab;
 
@@ -73,7 +73,8 @@ background-image:url("/images/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg");
     color:red;
     font-style: oblique;
     background-color: yellow;
-    margin: 50px;
+    margin: 150px;
+    margin-left:80px ;
     padding-top: 10px;
     width: 300px;
     height: 250px;
@@ -94,9 +95,9 @@ background-image:url("/images/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-}
-.sidebar{
-    background-color: cyan;
-    float: left;
+} */
 
+.containerree{
+    margin:50px;
+    display:flex;
 }
