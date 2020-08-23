@@ -1,19 +1,17 @@
-var akanMaleName = ["Kwasi, Kwadwo, Kwabena, Kwaku, Yaw, Kofi, Kwame"];
-var akanFemaleName = ["Akosua, Adwoa, Abenaa, Akua, Yaa, Afua, Ama"];
-// if (month >= 12 || month <= 1) {
-//     alert("Enter a month number between 1-12"
-// }
+var akanMaleName = ["Kwasi, Kwadwo, Kwabena, Kwaku, Yaw, Kofi, Kwame"]; //names according to days of week for male
+var akanFemaleName = ["Akosua, Adwoa, Abenaa, Akua, Yaa, Afua, Ama"]; //names according to days of week of female.
+
 function akanName() {
-    var bdate = document.getElementById("bdate").value;
-    var gender = document.getElementById("gender").value;
+    var bdate = document.getElementById("bdate").value; //get the birthday date
+    var gender = document.getElementById("gender").value; //get result if male or female
 
-    var CC = parseInt(bdate.substr(6, 7));
-    var DD = parseInt(bdate.substr(3, 4));
-    var YY = parseInt(bdate.substr(8, 9));
-    var MM = parseInt(bdate.substr(0, 1));
-    var doW = parseInt((CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) % 7);
+    var CC = parseInt(bdate.substr(6, 7)); //century of the year, first 2 digits of year
+    var DD = parseInt(bdate.substr(3, 4)); //day of the month
+    var YY = parseInt(bdate.substr(8, 9)); //last two digits of year 
+    var MM = parseInt(bdate.substr(0, 1)); //month of the birthdate
+    var doW = parseInt((CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) % 7); //formula result to day of the week.
 
-    if (month >= 12 || month <= 1) {
+    if (MM >= 12 || MM <= 1) {
         alert("Enter a month number between 1-12")
     } else if (gender === "Male") {
         alert("You now posess the AkanName:" + akanMaleName[doW])
