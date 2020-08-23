@@ -26,30 +26,28 @@
             </h1>
             <h2>Who knows Their birthday date?<br>Many right! <br>Who knows their day of week of their birthday? <br>
                 None? Worry No more? </p>
-                <h2>
-                    <!-- Our <strong>NAMING APP</strong> will cater for your trouble of informing you on which day of the
-                    week is
-                    your birthday or when you were born.The days are categorised normal like any
-                    other:<em>Sunday-Saturday</em> -->
-                    </p>
-                    <div class="footer">
-                        <p><button type="submit" onclick="akanname()">START</button></p>
-                    </div>
+                <div class="footer">
+                    <p><button type="submit">START</button></p>
+                </div>
         </div>
         <div class="row">
+            <h2>
+                Our <strong>NAMING APP</strong> will cater for your trouble of informing you on which day of the
+                week is
+                your birthday or when you were born.The days are categorised normal like any
+                other:<em>Sunday-Saturday</em>
+            </h2>
             <form>
                 <div class="form-group">
                     <label for="fname">BIRTHDAY DATE:</label><br>
-                    <input type="date" id="bdate" name="bdate"><br>
-                    <label for="gender">Gender</label><br>
-                    <div class="form-gender" id="gender">
-                        <select class="form-gender" id="gender">
-                            <option>Click to Choose</option>
-                            <option>Male</option>
-                            <option>Female</option>
-                        </select>
-                    </div>
-                    <button type="submit" class="btn-btn primary">AKANNAME</button>
+                    <input type="date" id="bdate" name="bdate"><br><br>
+                    <label for="gender">Gender</label><br><br>
+                    <select id="gender">
+                        <option>Click to Choose</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select><br>
+                    <button type="submit" class="btn-btn primary" onclick="akanName()">AKANNAME</button>
                 </div>
             </form>
         </div>
