@@ -1,23 +1,25 @@
-var akanMaleName = ["Kwasi, Kwadwo, Kwabena, Kwaku, Yaw, Kofi, Kwame"]; //names according to days of week for male
-var akanFemaleName = ["Akosua, Adwoa, Abenaa, Akua, Yaa, Afua, Ama"]; //names according to days of week of female.
-
 function akanName() {
+    var akanMaleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]; //names according to days of week for male
+    var akanFemaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]; //names according to days of week of female.
     var bdate = document.getElementById("bdate").value; //get the birthday date
     var gender = document.getElementById("gender").value; //get result if male or female
 
-    var CC = parseInt(bdate.substr(6, 7)); //century of the year, first 2 digits of year
-    var DD = parseInt(bdate.substr(3, 4)); //day of the month
-    var YY = parseInt(bdate.substr(8, 9)); //last two digits of year 
-    var MM = parseInt(bdate.substr(0, 1)); //month of the birthdate
+    var CC = parseInt(bdate.substr(0, 2)); //century of the year, first 2 digits of year
+    var DD = parseInt(bdate.substr(8, 9)); //day of the month
+    var YY = parseInt(bdate.substr(1, 3)); //last two digits of year 
+    var MM = parseInt(bdate.substr(5, 6)); //month of the birthdate
     var doW = parseInt((CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) % 7); //formula result to day of the week.
-
-    if (MM >= 12 || MM <= 1) {
-        alert("Enter a month number between 1-12")
-    } else if (gender === "Male") {
-        alert("You now posess the AkanName:" + akanMaleName[doW])
+    if (gender === "Male") {
+        alert("You now posess the AkanName: " + akanMaleName[doW])
     } else if (gender === "Female") {
-        alert("You now posess the AkanName:" + akanFemaleName[doW])
-    }
+        alert("You now posess the AkanName: " + akanFemaleName[doW])
+    } else
+        alert("You entered invalid gender")
+
 
 
 }
+// (MM <= 12 || MM >= 1) {
+//     alert("Enter a month number between 1-12 to be a valid date")
+// } else if (DD <= 31 || DD >= 1) {
+//     alert("Enter a day number between 1-31 to be a valid date")

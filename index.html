@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="./bootstrap/css/styles.css">
     <title>Naming app</title>
 </head>
 
 <body>
-    <section>
-        <nav>
+    <div class="jumbotron">
+        <!-- <nav>
             <a href="#" class="Active">Home</a>
             <a href="#" class="Active">Naming App</a></li>
             <ul>
@@ -18,40 +20,37 @@
                 <li><a href="#">projects</a></li>
                 <li><a href="#">Contact Me</a></li>
             </ul>
-        </nav>
+        </nav> -->
+        <h1>NAMING APP WEBSITE<br> <br>WELCOME!:</h1>>
+        <h2>Who knows Their birthday date?<br>Many right! <br>Who knows their day of week of their birthday? <br>
+            None? Worry No more? </h2>
+        <!-- <button class="start">START</button> -->
+    </div>
 
-        <div class="jumbotron">
-            <h1>NAMING APP <br>
-                WELCOME!: <br>
-            </h1>
-            <h2>Who knows Their birthday date?<br>Many right! <br>Who knows their day of week of their birthday? <br>
-                None? Worry No more? </p>
-                <div class="footer">
-                    <p><button type="submit">START</button></p>
-                </div>
-        </div>
-        <div class="row">
-            <h2>
-                Our <strong>NAMING APP</strong> will cater for your trouble of informing you on which day of the
-                week is
-                your birthday or when you were born.The days are categorised normal like any
-                other:<em>Sunday-Saturday</em>
-            </h2>
-            <form>
-                <div class="form-group">
-                    <label for="fname">BIRTHDAY DATE:</label><br>
-                    <input type="date" id="bdate" name="bdate"><br><br>
-                    <label for="gender">Gender</label><br>
-                    <select id="gender">
-                        <option>Click to Choose</option>
-                        <option>Male</option>
-                        <option>Female</option>
-                    </select><br><br>
-                    <button type="submit" class="btn-btn primary" onclick="akanName()">AKANNAME</button>
-                </div>
-            </form>
-        </div>
-    </section>
+
+    <div class="row">
+        <h2>
+            Our <strong>NAMING APP</strong> will cater for your trouble of informing you on which day of the
+            week is
+            your birthday or when you were born.The days are categorised normal like any
+            other:<em>Sunday-Saturday</em>.<br>Using the gender outputs the Akan name is provided equivalent to the
+            day
+            of the week one has been born
+        </h2>
+        <form>
+            <div class="form-group">
+                <label for="fname">BIRTHDAY DATE:</label><br>
+                <input type="date" id="bdate" name="bdate"><br><br>
+                <label for="gender">Gender</label><br>
+                <select id="gender">
+                    <option>Click to Choose</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select><br><br>
+                <button type="submit" class="btn-btn primary" onclick="akanName()">Submit</button>
+            </div>
+        </form>
+    </div>
     <script src="/bootstrap/js/script.js"></script>
 </body>
 

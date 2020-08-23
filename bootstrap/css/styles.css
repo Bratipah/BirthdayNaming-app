@@ -47,30 +47,23 @@ a{
     font-weight: bold;
     color: rgb(7, 6, 5); 
 }
-.jumbotron{
+/* .jumbotron{
     border: burlywood;
     box-shadow: crimson;
-    /* background-image:url("/images/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg"); */
+background-image:url("/images/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg");
     padding-top: 20px;
     padding-left: 70px;
     margin-left: 40px;
-    margin-top: 100px; */
+    margin-top: 100px;
     width: 500px;
     height: 300px;
-}
-.footer{
-    text-align: center;
-    
-}
-.footer button{
+}  */
+
+.start{
     background-color:yellow;
     box-shadow:olivedrab;
-    border-radius: 10px;
-    align-items: center;
-    width: 200px;
-    height: 50px;
-    color:black;
-    font-size: xx-large;   
+
+      
 }
 .form-group{
     align-items: center;
@@ -93,4 +86,11 @@ a{
     color: cornsilk;
     border-radius: 5px;
 
+}
+.jumbotron{
+    background-color: crimson;
+    background-image: url(/images/dance-papuans-dancing-african-people-260nw-773214946.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
