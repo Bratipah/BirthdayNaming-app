@@ -35,7 +35,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 [Bratipah Kioko ](/images/IMG_20190823_140252.jpg) 
 
-## [License]
+## License
 
 [MIT](https://github.com/Bratipah/Portfolio/blob/gh-pages/LICENSE.md) © [Bratipah Kioko ](https://github.com/bratipah)
 
