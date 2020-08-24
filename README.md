@@ -12,7 +12,9 @@ This website is  about a Ghana naming culture whereby we use gender inputs,birth
 Here is a working live demo : https://bratipah.github.io/Naming-app/
  
 
-### BDD(Behavioural Driven Development)
+
+
+## BDD(Behavioural Driven Development)
 An Akan Naming app gives a user a Ghanian name after the user has inputed their birthday date.This birthday date has a format displayed in a form for input and a label indicating the date format for the user to enter through.In case the user doesnt fill up the form a message is displayed for them to enter the required date needed.After the input of birthday date the user is prompted to choose their gender either male or female through a select option.For the user to be able to see their Akan Name correspondence they have to click on the submit button where the Name pops up;Satsifying the objective of the Naming App project.
 Here is a an example Of the Input,example,Output,result.
 <table>
