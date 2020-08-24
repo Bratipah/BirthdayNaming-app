@@ -9,7 +9,11 @@ function akanName() {
     var YY = parseInt(bdate.substr(2, 4)); //last two digits of year 
     var MM = parseInt(bdate.substr(5, 6)); //month of the birthdate
     var doW = parseInt((CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) % 7); //formula result to day of the week.
-    if (gender === "Male") {
+    if (MM <= 12 || MM >= 1) {
+        alert("Enter a month number between 1-12 to be a valid date")
+    } else if (DD <= 31 || DD >= 1) {
+        alert("Enter a day number between 1-31 to be a valid date")
+    } else if (gender === "Male") {
         alert("You now posess the AkanName: " + akanMaleName[doW])
     } else if (gender === "Female") {
         alert("You now posess the AkanName: " + akanFemaleName[doW])
@@ -19,7 +23,3 @@ function akanName() {
 
 
 }
-// (MM <= 12 || MM >= 1) {
-//     alert("Enter a month number between 1-12 to be a valid date")
-// } else if (DD <= 31 || DD >= 1) {
-//     alert("Enter a day number between 1-31 to be a valid date")
