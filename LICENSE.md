@@ -24,6 +24,7 @@ Here are some suggested ways:
  - Tell friends what a wonderful project this is.
  - And, sure, you can just express thanks in your mind without telling the world.
 
+
 Contributors of this project by forking have the option to add his/her name and
 forked project url at copyright and project url sections, but shall not delete
 or modify anything else in these two sections.
