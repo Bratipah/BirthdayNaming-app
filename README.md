@@ -9,7 +9,7 @@ A website using HTML and CSS to display my qualities as a person both in educati
 
 
 ## Demo
-Here is a working live demo : https://bratipah.github.io/Naming app/
+Here is a working live demo : https://bratipah.github.io/Naming-app/
  
 
 ### Development
