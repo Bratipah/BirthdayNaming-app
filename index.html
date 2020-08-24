@@ -3,23 +3,109 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Naming app</title>
 </head>
 
 <body>
-    <section>
-        <nav>
-
-        </nav>
-        <div class="container">
-            BIRTHDAYCULTURENAMING APP
-            <!-- <img src="./images/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg" alt="CultureNaming" height="800" width="100%"> -->
-
+    <div class="container">
+        <div class="jumbotron">
+            <h1><strong>NAMING APP WEBSITE</strong><br> <br>WELCOME!:</h1>
+            <h2>Who knows Their birthday date?<br>Many right! <br>Who knows their day of week of their birthday? <br>
+                None? Worry No more? </h2>
+            <!-- <button class="start">START</button> -->
         </div>
-        <img src="./images/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg" alt="CultureNaming" height="800" width="100%">
-    </section>
-    <script src="./script.js"></script>
+        <div class="about">
+            <h1>ABOUT</h1>
+            <h2>
+                Our <strong>NAMING APP</strong> will cater for your trouble of informing you on which day of the
+                week is
+                your birthday or when you were born.The days are categorised normal like any
+                other:<em>Sunday-Saturday</em>.<br>Using the gender outputs the Akan name is provided equivalent to the
+                day
+                of the week one has been born. <br> This AkanNames are an origin and culture to the Ghana in Africa
+                whereby the names are in correspondence with each ones gender and Day of the week one is born.
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <caption class="caption">FILL THE FORM FOR YOUR AKANNAME: </caption><br><br>
+                        <label for="fname">BIRTHDAY DATE:</label><br>
+                        <input type="date" id="bdate" name="bdate" required><br><br>
+                        <label for="gender">Gender</label><br>
+                        <select id="gender">
+                            <option>Click to Choose</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select><br><br>
+                        <button type="submit" class="btn-btn primary" onclick="akanName()">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <table style="width: 100%;">
+                    <caption class="caption">GHANIAN NAMES</caption>
+                    <tr>
+                        <th>DAYS</th>
+                        <th>MALE</th>
+                        <th>FEMALE</th>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>Kwasi</td>
+                        <td>Akosua</td>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Kwadwo</td>
+                        <td>Adwoa</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Kwabena</td>
+                        <td>Abenaa</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Kwaku</td>
+                        <td>Akua</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Yaw</td>
+                        <td>Yaa</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>Kofi</td>
+                        <td>Afua</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Kwame</td>
+                        <td>Ama</td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Copyright &copy; 2020 || BRATIPAH KIOKO || TERMS&CONDITIONS <br>
+        bratipahmh@gmail.com <br><br>
+        <a href="https://www.facebook.com/"><img src="/images/index.jpeg" alt="Facebook" height=" 50" width="50"></a>
+        <a href="https://www.instagram.com/"><img src="/images/images.jpeg" alt="instagram" height=" 50" width="50"></a>
+    </footer>
+    <script src="/bootstrap/js/script.js"></script>
 </body>
 
 </html>

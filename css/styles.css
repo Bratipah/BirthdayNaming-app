@@ -1,0 +1,169 @@
+ /* body{
+    background-image: url("/images/dance-papuans-dancing-african-people-260nw-773214946.webp");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 500px;
+}
+h1{
+    margin-top: 50px;
+    text-align:center;
+    align-items: center;
+    
+    
+} 
+h2{
+    margin-top: 20px;
+    text-align: center;
+
+}
+li{
+    list-style: none;
+}
+a{
+    list-style: none;
+}
+.Active{
+    font-weight: bold;
+    color: rgb(7, 6, 5);
+} */
+/* .jumbotron{
+    border: burlywood;
+    box-shadow: crimson;
+background-image:url("/images/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg");
+    padding-top: 20px;
+    padding-left: 70px;
+    margin-left: 40px;
+    margin-top: 100px;
+    width: 500px;
+    height: 300px;
+}  */
+
+/* .start{
+    background-color:yellow;
+    box-shadow:olivedrab;
+
+      
+}
+.form-group{
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    color:red;
+    font-style: oblique;
+    background-color: yellow;
+    margin: 150px;
+    margin-left:80px ;
+    padding-top: 10px;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+.form-group button{
+    background-color: black;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    color: cornsilk;
+    border-radius: 5px;
+}
+.jumbotron{
+    background-color: crimson;
+    background-image: url(/images/dance-papuans-dancing-african-people-260nw-773214946.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+} */
+
+/* .containerree{
+    margin:50px;
+    display:flex;
+} */
+body{
+    background-color: brown;
+    width: 100%;
+}
+.jumbotron{
+    background-color: crimson;
+    background-image: url("/images/dance-papuans-dancing-african-people-260nw-773214946.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: cornsilk;
+} 
+.row{
+    /* display: flex; */
+    background-color: orange;
+    border-radius: 10px;
+    height: 500px;
+    background-image: url("../images/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.about{
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    color: blanchedalmond;
+    background-image: url("/images/terry-vlisidis-WsEbnsnKbUE-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-group{
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    color:red;
+    font-style: oblique;
+    background-color: yellow;
+    border: 2px, black;
+    margin: 150px;
+    margin-left:60px ;
+    padding-top: 20px;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+.form-group button{
+    background-color: black;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    color: cornsilk;
+    border-radius: 5px;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 80px;
+    margin-right: 20px;
+    border-radius: 10px;
+    height: 250px;
+    background-color: yellow;
+    font-size: large;
+
+  }
+  th{
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-size: large;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-size: large;
+    text-align: center;
+  }
+  .caption{
+      caption-side: top;
+      text-align: center;
+      color: black;
+      font-size: xx-large;
+  }
+footer{
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+}
