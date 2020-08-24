@@ -1,4 +1,4 @@
-# Portfolio
+# Naming App
 <table>
 <tr>
 <td>
@@ -9,7 +9,7 @@ A website using HTML and CSS to display my qualities as a person both in educati
 
 
 ## Demo
-Here is a working live demo : https://bratipah.github.io/Portfolio/
+Here is a working live demo : https://bratipah.github.io/Naming app/
  
 
 ### Development
@@ -31,9 +31,15 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 
 If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/Bratipah/Portfolio/issues). Please include sample queries and their corresponding results.
 
+## Built with
+-HTML
+-CSS
+-JAVASCRIPT
+-BOOTSTRAP 
 
 
-[Bratipah Kioko ](/images/IMG_20190823_140252.jpg) 
+## Author:
+Bratipah Kioko 
 
 ## License
 

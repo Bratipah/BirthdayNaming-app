@@ -84,7 +84,7 @@ body{
 }
 .jumbotron{
     background-color: crimson;
-    background-image: url(/images/dance-papuans-dancing-african-people-260nw-773214946.webp);
+    background-image: url("/images/dance-papuans-dancing-african-people-260nw-773214946.webp");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -95,7 +95,7 @@ body{
     background-color: orange;
     border-radius: 10px;
     height: 500px;
-    background-image: url(/images/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg);
+    background-image: url("/images/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg");
     background-size:cover ;
     background-repeat: no-repeat;
 }
