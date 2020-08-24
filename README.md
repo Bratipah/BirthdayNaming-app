@@ -33,8 +33,8 @@ Here is a an example Of the Input,example,Output,result.
 </tr>
 <tr>
     <td>Submit button</td>
+    <td>click the submit button</td>
     <td>AkanNamedisplay(Your name is:Kwadwo)(result)</td>
-    <td></td>
 </tr>
 <tr>
     <td>CC</td>
