@@ -84,7 +84,7 @@ body{
 }
 .jumbotron{
     background-color: crimson;
-    background-image: url("/images/dance-papuans-dancing-african-people-260nw-773214946.webp");
+    background-image: url("../images/dance-papuans-dancing-african-people-260nw-773214946.webp");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -104,7 +104,7 @@ body{
     text-align: center;
     border-radius: 5px;
     color: blanchedalmond;
-    background-image: url("/images/terry-vlisidis-WsEbnsnKbUE-unsplash.jpg");
+    background-image: url("../images/terry-vlisidis-WsEbnsnKbUE-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
